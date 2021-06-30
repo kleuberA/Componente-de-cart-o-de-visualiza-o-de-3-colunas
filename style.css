@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+    margin: auto;
+    height: 100vh;
+    max-width: 1440px;
+}
+.container-grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: 110%;
+	padding: 25vh 0 5vh 0;
+}
+.container-sedans{
+	grid-column: 1;
+	grid-row: 1;
+	background: hsl(31, 77%, 52%);
+	padding: 2vw 2vw 0 2vw;
+}
+.titulo-principal{
+	font-family: 'Big Shoulders Display', cursive;
+	color: hsl(0, 0%, 95%);
+	padding: 2vw 0;
+}
+.paragrafo{
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	padding: 0 0 2vw 0;
+}
+.learn-sedans{
+	width: 13vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 3vw;
+    padding: 1vw;
+}
+.learn-sedans:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+}
+.learn-link-sedans:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-sedans{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+.container-suvs{
+	grid-column: 2;
+	grid-row: 1;
+	background: hsl(184, 100%, 22%);
+	padding: 2vw 2vw 0 2vw;
+}
+.learn-suvs{
+	width: 13vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 3vw;
+    padding: 1vw;
+}
+.learn-suvs:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-suvs:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-suvs{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+.container-luxury{
+	grid-column: 3;
+	grid-row: 1;
+	background: hsl(179, 100%, 13%);
+	padding: 2vw 2vw 0 2vw;
+}
+.learn-luxury{
+	width: 13vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 3vw;
+    padding: 1vw;
+}
+.learn-luxury:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+}
+.learn-link-luxury:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-luxury{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 375px){
+	.container{
+		width: 80%;
+    	margin: auto;
+    	height: 100vh;
+	}
+	.container-grid{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: 55vh 55vh 55vh;
+	padding: 10vh 0 5vh 0;
+}
+.container-sedans{
+	grid-column: 1;
+	grid-row: 1;
+	background: hsl(31, 77%, 52%);
+	padding: 5vh 2vw 0 10vw;
+	border-radius: 2vw 2vw 0 0;
+}
+.learn-sedans{
+	width: 50vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 5vw;
+    padding: 2vw;
+}
+.learn-sedans:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+}
+.learn-link-sedans:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-sedans{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+.container-suvs{
+	grid-column: 1;
+	grid-row: 2;
+	background: hsl(184, 100%, 22%);
+	padding: 5vh 2vw 0 10vw;
+
+}
+.learn-suvs{
+	width: 50vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 5vw;
+    padding: 2vw;
+}
+.learn-suvs:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-suvs:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-suvs{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+.container-luxury{
+	grid-column: 1;
+	grid-row: 3;
+	background: hsl(179, 100%, 13%);
+	padding: 5vh 2vw 0 10vw;
+	border-radius: 0 0 2vw 2vw;
+}
+.learn-luxury{
+	width: 50vw;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 95%);
+    border-radius: 5vw;
+    padding: 2vw;
+}
+.learn-luxury:hover{
+	border: 2px solid hsl(0, 0%, 95%);
+	background: transparent;
+}
+.learn-link-luxury:hover{
+	color: hsl(0, 0%, 95%);
+}
+.learn-link-luxury{
+	font-family: 'Big Shoulders Display', cursive;
+	text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+.titulo-principal{
+	font-family: 'Big Shoulders Display', cursive;
+	color: hsl(0, 0%, 95%);
+	padding: 2vw 0;
+}
+.paragrafo{
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	padding: 0 0 3vw 0;
+}
+}
